@@ -17,10 +17,4 @@ public class LoginTests extends BaseTest {
 
         Assert.assertTrue(actual.contains("Epic sadface"));
     }
-
-
-
-
-
-
 }

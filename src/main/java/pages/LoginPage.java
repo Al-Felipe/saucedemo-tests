@@ -16,14 +16,15 @@ public class LoginPage extends BasePage{
         set(passwordField, text);
     }
 
-    public void clickLoginBtn(){
+    public ProductsPage clickLoginBtn(){
         click(loginBtn);
+        return new ProductsPage();
     }
 
-    public void loginIntoApplication(String username, String password){
+    public ProductsPage loginIntoApplication(String username, String password){
         setUsernameField(username);
         setPasswordField(password);
-        clickLoginBtn();
+        return clickLoginBtn();
     }
 
     public String getErrorMessage(){
