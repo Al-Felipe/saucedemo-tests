@@ -6,6 +6,7 @@ public class LoginPage extends BasePage{
     private By usernameField = By.name("user-name");
     private By passwordField = By.name("password");
     private By loginBtn = By.name("login-button");
+    private By errorMsg = By.tagName("h3");
 
     public void setUsernameField(String text) {
         set(usernameField, text);
@@ -23,5 +24,9 @@ public class LoginPage extends BasePage{
         setUsernameField(username);
         setPasswordField(password);
         clickLoginBtn();
+    }
+
+    public String getErrorMessage(){
+        return driver.findElement(errorMsg).getText();
     }
 }

@@ -8,7 +8,7 @@ import pages.BasePage;
 import pages.LoginPage;
 
 public class BaseTest {
-    private WebDriver driver;
+    protected WebDriver driver;
     protected LoginPage loginPage;
     protected BasePage basePage;
     private String url = "https://www.saucedemo.com/";

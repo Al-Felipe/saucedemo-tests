@@ -9,6 +9,13 @@ public class LoginTests extends BaseTest {
         loginPage.loginIntoApplication("standard_user", "secret_sauce");
     }
 
+    @Test
+    public void blockLoginWithoutPassword(){
+        loginPage.loginIntoApplication("standard_user", "");
+        loginPage.getErrorMessage();
+    }
+
+
 
 
 }
