@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="148f059f-04a1-47ed-b01e-f75e63625e7d" name="Changes" comment="create LoginTests">
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+    <list default="true" id="148f059f-04a1-47ed-b01e-f75e63625e7d" name="Changes" comment="create blockLoginWithoutPassword method">
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.LoginTests.successfulLogin.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LoginTests.blockLoginWithoutPassword.executor": "Run",
+    "TestNG.LoginTests.successfulLogin.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.LoginTests.blockLoginWithoutPassword">
+}]]></component>
+  <component name="RunManager" selected="TestNG.LoginTests.displayLoginErrorMessage">
     <configuration name="LoginTests.blockLoginWithoutPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="saucedemo" />
       <extension name="coverage">
@@ -56,6 +56,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
       <option name="METHOD_NAME" value="blockLoginWithoutPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.displayLoginErrorMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="saucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
+      <option name="METHOD_NAME" value="displayLoginErrorMessage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTests.displayLoginErrorMessage" />
         <item itemvalue="TestNG.LoginTests.blockLoginWithoutPassword" />
         <item itemvalue="TestNG.LoginTests.successfulLogin" />
       </list>
@@ -129,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752521257551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create blockLoginWithoutPassword method">
+      <option name="closed" value="true" />
+      <created>1752521633972</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752521633972</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +164,7 @@
     <MESSAGE value="create LoginPage" />
     <MESSAGE value="create BaseTest" />
     <MESSAGE value="create LoginTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="create LoginTests" />
+    <MESSAGE value="create blockLoginWithoutPassword method" />
+    <option name="LAST_COMMIT_MESSAGE" value="create blockLoginWithoutPassword method" />
   </component>
 </project>

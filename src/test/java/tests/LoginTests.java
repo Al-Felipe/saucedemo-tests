@@ -1,6 +1,7 @@
 package tests;
 
 import base.BaseTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTests extends BaseTest {
@@ -10,10 +11,14 @@ public class LoginTests extends BaseTest {
     }
 
     @Test
-    public void blockLoginWithoutPassword(){
+    public void displayLoginErrorMessage(){
         loginPage.loginIntoApplication("standard_user", "");
-        loginPage.getErrorMessage();
+        String actual = loginPage.getErrorMessage();
+
+        Assert.assertTrue(actual.contains("Epic sadface"));
     }
+
+
 
 
 
