@@ -21,11 +21,12 @@ public class BaseTest {
 
         basePage = new BasePage();
         basePage.setDriver(driver);
+        basePage.delay();
         loginPage = new LoginPage();
     }
 
     @AfterClass
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 }
