@@ -14,7 +14,6 @@ public class LoginTests extends BaseTest {
     public void displayLoginErrorMessage(){
         loginPage.loginIntoApplication("standard_user", "");
         String actual = loginPage.getErrorMessage();
-
         Assert.assertTrue(actual.contains("Epic sadface"));
     }
 }
