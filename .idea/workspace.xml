@@ -49,7 +49,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTests.displayLoginErrorMessage">
+  <component name="RunManager" selected="TestNG.ProductsTest.filterByLowPrice">
     <configuration name="LoginTests.blockLoginWithoutPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="saucedemo" />
       <extension name="coverage">
@@ -142,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests.displayLoginErrorMessage" />
         <item itemvalue="TestNG.ProductsTest.filterByLowPrice" />
+        <item itemvalue="TestNG.LoginTests.displayLoginErrorMessage" />
         <item itemvalue="TestNG.ProductsTest.headerIsDisplayed" />
         <item itemvalue="TestNG.LoginTests.blockLoginWithoutPassword" />
         <item itemvalue="TestNG.LoginTests.successfulLogin" />
