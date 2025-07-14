@@ -19,11 +19,19 @@ public class ProductsTest extends BaseTest {
 
     @Test
     public void filterByLowPrice(){
-        WebElement dropdown =  driver.findElement(By.className("product_sort_container"));
+        WebElement dropdown = driver.findElement(By.className("product_sort_container"));
         Select select = new Select(dropdown);
 
         select.selectByIndex(2);
+    }
 
+    @Test
+    public void addToCart(){
+        WebElement addBtn = driver.findElement(By.id("add-to-cart-sauce-labs-backpack"));
+        addBtn.click();
+
+        String updatedCart = driver.findElement(By.className("shopping_cart_badge")).getText();
+        Assert.assertEquals(updatedCart, "1");
     }
 
 

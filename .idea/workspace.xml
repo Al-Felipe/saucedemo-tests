@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="148f059f-04a1-47ed-b01e-f75e63625e7d" name="Changes" comment="create headerIsDisplayed test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+    <list default="true" id="148f059f-04a1-47ed-b01e-f75e63625e7d" name="Changes" comment="add filterByLowPrice method">
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ProductsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +41,14 @@
     "TestNG.LoginTests.blockLoginWithoutPassword.executor": "Run",
     "TestNG.LoginTests.displayLoginErrorMessage.executor": "Run",
     "TestNG.LoginTests.successfulLogin.executor": "Run",
+    "TestNG.ProductsTest.addToCart.executor": "Run",
     "TestNG.ProductsTest.filterByLowPrice.executor": "Run",
     "TestNG.ProductsTest.headerIsDisplayed.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ProductsTest.filterByLowPrice">
+  <component name="RunManager" selected="TestNG.ProductsTest.addToCart">
     <configuration name="LoginTests.blockLoginWithoutPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="saucedemo" />
       <extension name="coverage">
@@ -86,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.successfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsTest.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="saucedemo" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +94,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
-      <option name="METHOD_NAME" value="successfulLogin" />
+      <option name="MAIN_CLASS_NAME" value="tests.ProductsTest" />
+      <option name="METHOD_NAME" value="addToCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProductsTest.addToCart" />
         <item itemvalue="TestNG.ProductsTest.filterByLowPrice" />
         <item itemvalue="TestNG.LoginTests.displayLoginErrorMessage" />
         <item itemvalue="TestNG.ProductsTest.headerIsDisplayed" />
         <item itemvalue="TestNG.LoginTests.blockLoginWithoutPassword" />
-        <item itemvalue="TestNG.LoginTests.successfulLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -215,8 +214,35 @@
       <option name="project" value="LOCAL" />
       <updated>1752522335315</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add delay method">
+      <option name="closed" value="true" />
+      <created>1752523200762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752523200762</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add filterByLowPrice method">
+      <option name="closed" value="true" />
+      <created>1752523417565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752523417565</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create BasePage" />
@@ -226,6 +252,8 @@
     <MESSAGE value="create blockLoginWithoutPassword method" />
     <MESSAGE value="create ProductsPage" />
     <MESSAGE value="create headerIsDisplayed test" />
-    <option name="LAST_COMMIT_MESSAGE" value="create headerIsDisplayed test" />
+    <MESSAGE value="add delay method" />
+    <MESSAGE value="add filterByLowPrice method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add filterByLowPrice method" />
   </component>
 </project>
